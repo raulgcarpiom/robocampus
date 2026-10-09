@@ -1,0 +1,145 @@
+{
+  "name": "base1",
+  "shortDescription": "base1",
+  "longDescription": "<p>Custom robot created in the configurator.</p>",
+  "longerDescription": "<h3>#robot-dimensions#</h3><ul><li>#robot-wheelDiameter#: 5.6 cm</li><li>#robot-wheelSpacing#: 14.2 cm</li></ul><h3>#robot-actuators#</h3><ul><li>#robot-port# A : #robot-leftWheel#</li><li>#robot-port# B : #robot-rightWheel#</li></ul><h3>#robot-sensors#</h3><ul></ul>",
+  "thumbnail": "",
+  "bodyHeight": 4,
+  "bodyWidth": 12,
+  "bodyLength": 12,
+  "wheels": true,
+  "wheelDiameter": 5.6,
+  "wheelWidth": 2,
+  "wheelToBodyOffset": 0.1,
+  "bodyEdgeToWheelCenterY": 1,
+  "bodyEdgeToWheelCenterZ": 4,
+  "bodyMass": 1000,
+  "wheelMass": 200,
+  "casterMass": 0,
+  "caster": true,
+  "wheelFriction": 10,
+  "bodyFriction": 0,
+  "casterFriction": 0,
+  "color": "#F09C0D",
+  "imageType": "top",
+  "imageURL": "https://raw.githubusercontent.com/raulgcarpiom/robocampus/refs/heads/main/recursos/imagenes/robots/robot_cuerpo_1-1.jpg",
+  "components": [
+    {
+      "type": "Box",
+      "position": [
+        3,
+        -1.5,
+        6.5
+      ],
+      "rotation": [
+        0,
+        0,
+        0
+      ],
+      "options": {
+        "height": 2,
+        "width": 1,
+        "depth": 1,
+        "color": "A3CF0D",
+        "imageType": "repeat",
+        "imageURL": "",
+        "uScale": 1,
+        "vScale": 1
+      }
+    },
+    {
+      "type": "Box",
+      "position": [
+        0,
+        -3,
+        6.5
+      ],
+      "rotation": [
+        0,
+        0,
+        0
+      ],
+      "options": {
+        "height": 1,
+        "width": 12,
+        "depth": 1,
+        "color": "A3CF0D",
+        "imageType": "repeat",
+        "imageURL": "",
+        "uScale": 1,
+        "vScale": 1
+      }
+    },
+    {
+      "type": "Box",
+      "position": [
+        -3,
+        -1.5,
+        6.5
+      ],
+      "rotation": [
+        0,
+        0,
+        0
+      ],
+      "options": {
+        "height": 2,
+        "width": 1,
+        "depth": 1,
+        "color": "A3CF0D",
+        "imageType": "repeat",
+        "imageURL": "",
+        "uScale": 1,
+        "vScale": 1
+      }
+    },
+    {
+      "type": "Box",
+      "position": [
+        -6.75,
+        -3,
+        7.5
+      ],
+      "rotation": [
+        0,
+        0.7853981633974483,
+        0
+      ],
+      "options": {
+        "height": 1,
+        "width": 3.2,
+        "depth": 1,
+        "color": "A3CF0D",
+        "imageType": "repeat",
+        "imageURL": "",
+        "uScale": 1,
+        "vScale": 1
+      }
+    },
+    {
+      "type": "Box",
+      "position": [
+        6.75,
+        -3,
+        7.5
+      ],
+      "rotation": [
+        0,
+        -0.7853981633974483,
+        0
+      ],
+      "options": {
+        "height": 1,
+        "width": 3.2,
+        "depth": 1,
+        "color": "A3CF0D",
+        "imageType": "repeat",
+        "imageURL": "",
+        "uScale": 1,
+        "vScale": 1
+      }
+    }
+  ],
+  "options": {},
+  "casterDiameter": 3
+}
