@@ -1,1 +1,10 @@
+# Excluir el contenido de la raíz por defecto.
+/*
+
+# Publicar únicamente recursos y los archivos básicos del repositorio.
+!/.gitignore
+!/README.md
+!/recursos/
+
+# Excluir los metadatos de Finder también dentro de recursos.
 .DS_Store
